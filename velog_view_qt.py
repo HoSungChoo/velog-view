@@ -27,7 +27,7 @@ class MyApp(QWidget):
 
     def initUI(self):
         # init value
-        size = [[380, 20], [380, 200], [380, 20], [380, 30], [380, 20], [170, 30], [170, 30], [380, 20]]
+        size = [[380, 20], [380, 200], [380, 20], [380, 30], [380, 20], [170, 30], [170, 30], [380, 40]]
         ypos = 10
         interval = 10
 
@@ -60,7 +60,7 @@ class MyApp(QWidget):
         self.widgets[6].setStyleSheet(
             Style.board.value + Style.padding.value + Style.font.value + Style.pushButton_back.value + Style.pushButton_color.value)
 
-        self.widgets[7].setText("오류 발생 시 hosung0610@google.com 으로 문의주세요.")
+        self.widgets[7].setText("원본: https://github.com/HoSungChoo/velog-view\n오류 발생 시 hosung0610@google.com 으로 문의주세요.")
         self.widgets[7].setAlignment(Qt.AlignCenter)
         self.widgets[7].setStyleSheet(
             Style.board.value + Style.padding.value + Style.font.value + Style.label_back.value)
